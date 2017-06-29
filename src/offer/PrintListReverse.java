@@ -30,6 +30,7 @@ public class PrintListReverse {
      * 解法1 递归
      *
      * @param headnode
+     * 使用栈这种数据结构的先进后出原理，将链表读入栈中，然后依次取出栈中的值
      */
     public static void printLIstreverse(ListNode headnode) {
         Stack<ListNode> stack = new Stack<>();

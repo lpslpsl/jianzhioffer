@@ -7,7 +7,7 @@ package offer;
  */
 public class Problem10 {
     public static void main(String[] args) {
-        System.out.println(numof1(9));
+        System.out.println(numberOf1(9));
     }
 
     /**
@@ -19,7 +19,9 @@ public class Problem10 {
         int count=0;
         while (num!=0){
             count++;
+            System.out.println(num);
             num=(num-1)&num;
+            System.err.println(num);
 
         }
         return count;
